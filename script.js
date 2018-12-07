@@ -11,32 +11,30 @@ console.log(myName);
 
 // Declare a var and then assign it
 var yourName;
-
 yourName = "Sable";
-console.log(yourName);
-yourName = "Tommy";
 console.log(yourName);
 
 // Reassign a varaible
-
+yourName = "Tommy";
+console.log(yourName);
 
 // Data types: strings, numbers, booleans
 var thisYear = 2018;
 var nextYear = 2019;
 var priceOfBanana = 9;
-
 var priceOfApple = 2;
 
+// Math operations with numbers
 var total = priceOfBanana + priceOfApple;
 console.log("This is our fruit total", total);
-
 var averagePrice = (priceOfApple + priceOfBanana)/2
 
 
-// Math operations with numbers
-
 // Math operations with stringified numbers
+var priceOfLime = "9";
+var priceOfLemon = "2";
 
+console.log(priceOfLime + priceOfLemon);
 
 // String concatenation and interpolation
 var firstName = "Dwayne";
@@ -55,7 +53,7 @@ var favoriteFoods = ["salmon", [4, 5, 6]];
 
 console.log(favoriteFoods[1][0]);
 
-console.log("How long is this array?", favoriteFoods.length + favoriteFoods[1].length);
+console.log("How long is this array?", favoriteFoods.length);
 
 // Objects
 var dwayneObject = {
